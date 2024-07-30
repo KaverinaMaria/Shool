@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1330px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #141024;
+    color: white;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+}
+
+.number {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.headblock {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.headdisc {
+    max-width: 516px;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 112px;
+    margin-bottom: 20px;
+}
+
+.img {
+    width: 780px;
+}
+
+.block {
+    padding: 120px 0;
+}
+
+.ROBOp {
+    width: 891px;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+span {
+    font-weight: 600;
+}
+
+.blocks {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.static {
+    max-width: 260px;
+}
+
+.numstatic {
+    font-size: 70px;
+    font-weight: 600;
+    color: #D52027;
+
+}
+
+.grey {
+    background-color: #F9F9F9;
+    padding: 100px 0;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 80px;
+    margin-bottom: 60px;
+}
+
+.after {
+    max-width: 360px;
+}
+
+.word {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+a {
+    font-size: 18px;
+    font-weight: 400;
+    color: #D52027;
+}
+
+.packet {
+    border: 1px solid #14102433;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.hpacket {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.price {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 80px;
+    text-align: center;
+}
+
+.packetdisc {
+    max-width: 250px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    font-family: "Jost", sans-serif;
+    color: white;
+    background-color: #D52027;
+    padding: 25px 54px;
+    width: 260px;
+    margin-top: 50px;
+}
+
+.packet:hover {
+    background-color: #141024;
+    color: white;
+}
+
+.red {
+    background-image: url(image/background.png);
+    background-color: #D52027;
+    padding: 90px 0;
+}
+.signup{
+    display: flex;
+    gap: 64px;
+    color: white;
+}
+.signup1{
+    max-width: 476px;
+    font-size: 20px;
+}
+.signtitle{
+    font-size: 36px;
+    font-weight: 600;  
+    margin-bottom: 20px; 
+}
+.signup2{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input {
+    border-radius: 5px;
+    padding: 20px 0 20px 20px;
+    color: #282944B2;
+}
+.butsignup{
+    font-family: "Jost", sans-serif;
+    background-color: #141024;
+    color: white;
+    padding: 20px 0;
+    margin: 0;
+}
+
+footer {
+    background-color: #141024;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+
+.copirat {
+    font-size: 16px;
+}
